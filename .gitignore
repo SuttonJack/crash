@@ -1,0 +1,67 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+/apps/main/src/jest/coverage
+coverage
+vercel
+# production
+build
+dist
+node_modules
+
+# next.js build output
+.next
+.swc
+apps/main/public/robots.txt
+
+# Mobile
+apps/worlds-mobile-app/ios/.xcode.env.local
+apps/worlds-mobile-app/ios/main.jsbundle
+apps/worlds-mobile-app/credentials.json
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+scripts_custom/
+
+# misc
+.DS_Store
+.env
+tsconfig.tsbuildinfo
+*.pem
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# src/utils/translations/*
+public/locales/*/translations.json
+public/locales/*/alpha_translations.json
+
+.vagrant/
+
+package-lock.json
+.vscode/**
+.idea/**
+.vercel
+.turbo
+build/**
+dist/**
+.next/**
+
+storybook-static
+
+# Sentry
+.sentryclirc
+scripts_custom/
